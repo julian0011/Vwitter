@@ -1,24 +1,24 @@
-# README
+# Vwitter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Vwitter es un sencillo clon de Twitter construido sobre Ruby on Rails (5.1.7).
 
-Things you may want to cover:
+Cosas que puede hacer:
 
-* Ruby version
+* Registro y Login de usuarios (magic Devise)
 
-* System dependencies
+* Crud para los Vweets
 
-* Configuration
+* Feed publico
 
-* Database creation
+### Empezando
+```
+git clone https://github.com/julian0011/Vwitter
+cd Vwitter
+bundle o bundle install
+rake db:migrate
+rails s
+```
 
-* Database initialization
+### Actualizaciones
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+En el futuro :D
